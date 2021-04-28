@@ -10,12 +10,6 @@
 		<string>-c</string>
 		<string>~/Library/vpnsaver/vpnsaver.sh</string>
 	</array>
-    <key>StandardOutPath</key>
-        <string>/Users/sporter/Library/Logs/vpnsaver.log</string>
-    <key>StandardErrorPath</key>
-        <string>/Users/sporter/Library/Logs/vpnsaver.log</string>
-    <key>Debug</key>
-        <true/>
     <key>StartInterval</key>
 	<integer>180</integer>
 </dict>
