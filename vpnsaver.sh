@@ -1,5 +1,5 @@
 #!/bin/sh
-logoutAfterIdleMinutes=30
+logoutAfterIdleMinutes=60
 echo `date`
 
 ps ax | grep -v grep | grep -q acvc-openvpn
