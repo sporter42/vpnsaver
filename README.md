@@ -6,18 +6,10 @@ There are server-side VPN configuration options to either disconnect if the conn
 vpnsaver is a client-side script that works based on the screen being locked for a certain amount of time. Another tool in the toolbox, so to speak. (AWS Client VPN costs $0.05/hour/connection, so if you would otherwise always forget to disconnect when done and you use the connection 60 hours/week, it saves about $20/month.)
 
 ## Installation
-Copy local.vpnsaver.plist to ~/Library/LaunchAgents/
-```sh
-$ cp local.vpnsaver.plist ~/Library/LaunchAgents/
-```
-Copy vpnsaver.sh to ~/Library/vpnsaver/ (you'll have to create this directory)
-```sh
-$ mkdir ~/Library/vpnsaver
-$ cp vpnsaver.sh ~/Library/vpnsaver/
-```
-Add the LaunchAgent 
-```
-$ launchctl load ~/Library/LaunchAgents/local.vpnsaver.plist
+Open a terminal window and cd to this directory
+
+Run the install.sh file
+```sh install.sh
 ```
 
 ## Dependencies/Assumptions
