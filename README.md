@@ -9,7 +9,8 @@ vpnsaver is a client-side script that works based on the screen being locked for
 Open a terminal window and cd to this directory
 
 Run the install.sh file
-```sh install.sh
+```sh 
+install.sh
 ```
 
 ## Dependencies/Assumptions
