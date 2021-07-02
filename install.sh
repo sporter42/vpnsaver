@@ -1,12 +1,12 @@
-
 #!/usr/bin/env bash    
+
 PLIST=~/Library/LaunchAgents/local.vpnsaver.plist
 LaunchAgents=~/Library/LaunchAgents/
 DIR=~/Library/vpnsaver/
 
 if [ -e $PLIST ]
 then
-	echo "removing installed version so we can upgrade it"
+	echo "Removing installed version so we can upgrade it"
 
 	echo "Unload plist as a service"
 	launchctl unload $PLIST
